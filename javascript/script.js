@@ -1,6 +1,6 @@
 "use strict";
 //Task1
-let objectUser = {};
+const objectUser = {};
 objectUser.name = "John";
 objectUser.surname = "Smith";
 objectUser.name = "Pete";
@@ -15,11 +15,10 @@ user.name = "Pete";
 console.log(user);
 
 //Task3
-let salaries = {
+const salaries = {
     John: 100,
     Ann: 160,
     Pete: 130
 }
-let sum;
-sum = salaries.John + salaries.Ann + salaries.Pete;
+const sum = salaries.John + salaries.Ann + salaries.Pete;
 console.log(sum);
